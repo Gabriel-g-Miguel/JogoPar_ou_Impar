@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 /**
  * A classe de teste AuxiliarTest.
  *
- * @author  (seu nome)
- * @version (um número de versão ou data)
+ * @author  Gabriel Gomes Miguel
+ * @version 2021 - 06 - 20
  */
 public class AuxiliarTest
 {
@@ -45,7 +45,14 @@ public class AuxiliarTest
     {
         Auxiliar.sorteioNumero();
     }
+
+    @Test
+    public void TesteAuxiliar()
+    {
+        Auxiliar.sorteioNumero();
+    }
 }
+
 
 
 
